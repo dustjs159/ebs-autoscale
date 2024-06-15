@@ -1,7 +1,6 @@
 import time
 import logging
 import json
-from botocore.exceptions import ClientError
 from ec2 import describe_instance
 from ec2 import describe_volumes
 from ec2 import modify_volume
