@@ -16,7 +16,7 @@ EBS Volume 사용률이 일정 수준이 넘어갈 경우 자동으로 볼륨을
   - 파이썬 패키지 배포
   - `$ bash -x ./deploy/pubilsh-layer.sh`
 - function 생성
-  - `$ bash -x ./deploy/create-lambda-function.sh`
+  - `$ bash -x ./deploy/create-lambda-function.sh [account id] [region]`
 - 이후 코드 변경 사항 배포
   - `$ bash -x ./deploy/update-function-code.sh`
 
